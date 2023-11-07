@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Overpass";
+}
+
+.containerOne{
+    background-color: hsl(212, 22%, 14%);
+    width: 274px;
+    height: 278px;
+    border-radius: 20px;
+}
+
+.firstBox{
+    display: flex;
+    flex-direction: column;
+    padding: 22px 25px 22px 20px;
+    gap: 20px;
+}
+
+h3{
+    color: white;
+}
+
+.starIcon{
+    background-color: hsla(217, 12%, 63%, 0.064);
+    width: fit-content;
+    border-radius: 50%;
+    display: flex;
+    padding: 11px;
+}
+
+.starIcon img{
+    height: 10px;
+}
+
+.textArea{
+    display: flex;
+    flex-direction: column;
+    color: hsl(217, 12%, 63%);
+    gap: 10px;
+}
+
+.textArea p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.ratingArea{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+}
+
+.btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 0;
+    color: hsl(217, 12%, 63%);
+    background-color: hsla(217, 12%, 63%, 0.064);
+    font-family: "Overpass";
+    font-size: 10px;
+}
+
+.btn:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.btn:active{
+    color:white;
+    background-color: hsl(25, 97%, 53%) ;
+}
+
+
+#submit{
+    width:auto;
+    cursor: pointer;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-family: "Overpass";
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+#submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.containerTwo{
+    background-color: hsl(212, 22%, 14%);
+    width: 274px;
+    height: 278px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondBox{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 24px;
+}
+
+.thanksImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.thanksImage img{
+    width: 110px;
+}
+
+.thanksImage div{
+    background-color: hsla(217, 12%, 63%, 0.064);
+    padding: 5px 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#text{
+    font-size: 10px;
+    color: hsl(25, 97%, 53%);
+}
+
+.center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.selected{
+    color:white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+
+
+
+
+
+
